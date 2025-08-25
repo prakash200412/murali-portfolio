@@ -1,0 +1,16 @@
+{
+  "name": "murali-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional light-purple portfolio (static) served by Node/Express",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
