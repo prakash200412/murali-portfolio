@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murali Dharan | Creative Video Editor & Motion Designer</title>
+    <meta name="description" content="Professional video editor specializing in cinematic storytelling, motion graphics, and creative content. Transform your vision into compelling visual stories.">
+    <meta name="keywords" content="video editor, motion graphics, after effects, premiere pro, cinematic, storytelling">
+    <meta name="author" content="Murali Dharan">
+    <link rel="canonical" href="/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Murali Dharan | Creative Video Editor">
+    <meta property="og:description" content="Transform your vision into compelling visual stories">
+    <meta property="og:image" content="/static/profile.jpg">
+    <meta property="og:url" content="/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Murali Dharan | Creative Video Editor">
+    <meta name="twitter:description" content="Transform your vision into compelling visual stories">
+    <meta name="twitter:image" content="/static/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/style.css">
+
+    <!-- JSON-LD Schema.org Person -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Murali Dharan","jobTitle":"Video Editor & Motion Designer","image":"static/profile.jpg","url":"/","sameAs":["https://www.instagram.com/muralz_moviez"],"knowsAbout":["Video Editing","Motion Graphics","Color Grading","Audio Editing"]}</script>
+</head>
+<body class="transition-colors">
+    <!-- Theme Initialization Script -->
+    <script>
+        // Initialize theme before page loads to prevent flash of incorrect theme
+        (function() {
+            const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+            const currentTheme = localStorage.getItem('theme') || (prefersDarkScheme.matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            if (currentTheme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+            }
+            
+            // Add loading class to body
+            document.documentElement.classList.add('is-loading');
+        })();
+    </script>
+    
+    <!-- Loading Screen -->
+    <div class="loading" aria-hidden="true">
+        <div class="spinner" role="status" aria-label="Loading"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="header-content">
+            <div class="brand">
+                <a href="#home" class="logo" aria-label="Go to home">MD</a>
+                <div class="brand-text">
+                    <h1>Murali Dharan</h1>
+                    <p>Video Editor & Motion Designer</p>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">☰</button>
+            </div>
+            <nav id="site-nav" role="navigation" aria-label="Primary">
+                <a class="nav-link" href="#home" aria-current="page">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="region" aria-label="Hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-tagline">Professional Video Editor</div>
+                <h1>Murali Dharan</h1>
+                <p class="hero-subtitle">Transforming ideas into captivating visual stories through expert editing and motion design.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-frame">
+                    <div class="profile-frame-inner">
+                        <img src="static/profile2.jpg" alt="Murali Dharan - Video Editor" class="profile-image">
+                    </div>
+                    <div class="profile-frame-decoration">
+                        <div class="decoration-circle"></div>
+                        <div class="decoration-circle"></div>
+                        <div class="decoration-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 14L12 21L5 14M19 8L12 15L5 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal" role="region" aria-label="About me">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Passionate about creating visual stories that resonate with audiences and deliver powerful messages.</p>
+        </div>
+        <!-- Profile block -->
+        <div class="about-profile reveal">
+            <img class="profile-img" src="/static/profile.jpg" alt="Portrait of Murali Dharan" loading="lazy" />
+            <div class="about-bio">
+                <h3>Murali Dharan</h3>
+                <p>Video Editor & Motion Designer based in Chennai, India. I craft cinematic edits, motion graphics, and social-first content that boost brand presence and audience retention.</p>
+            </div>
+        </div>
+        <div class="card-grid">
+            <div class="card reveal">
+                <div class="card-icon">🎬</div>
+                <h3>Cinematic Storytelling</h3>
+                <p>I specialize in creating compelling narratives through visual storytelling, ensuring every frame contributes to the overall message and emotional impact.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">✨</div>
+                <h3>Motion Graphics</h3>
+                <p>From simple animations to complex visual effects, I bring static elements to life with smooth, engaging motion graphics that enhance your content.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🎨</div>
+                <h3>Creative Direction</h3>
+                <p>Working closely with clients to understand their vision and translate it into stunning visual content that exceeds expectations and achieves goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section reveal" role="region" aria-label="Services">
+        <div class="section-header">
+            <h2 class="section-title">Services I Offer</h2>
+            <p class="section-subtitle">Comprehensive video editing and motion design services to bring your creative vision to life.</p>
+        </div>
+        <div class="card-grid">
+            <div class="card reveal">
+                <div class="card-icon">🎥</div>
+                <h3>Video Editing</h3>
+                <p>Professional video editing for commercials, promotional content, social media videos, and corporate presentations with seamless transitions and engaging pacing.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🎭</div>
+                <h3>Motion Graphics</h3>
+                <p>Custom animated graphics, lower thirds, logo animations, and visual effects that add dynamic elements to your videos and enhance brand recognition.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🎬</div>
+                <h3>Color Grading</h3>
+                <p>Professional color correction and grading to create the perfect mood, enhance visual appeal, and ensure consistency across all your content.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🎵</div>
+                <h3>Audio Enhancement</h3>
+                <p>Audio mixing, sound design, and music synchronization to create immersive audio experiences that complement your visual content.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">📱</div>
+                <h3>Social Media Content</h3>
+                <p>Optimized video content for various social media platforms including Instagram, TikTok, YouTube, and LinkedIn with platform-specific formatting.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🎯</div>
+                <h3>Brand Videos</h3>
+                <p>Compelling brand storytelling videos that communicate your message effectively and create lasting impressions with your target audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section reveal" role="region" aria-label="Portfolio">
+        <div class="section-header">
+            <h2 class="section-title">Featured Work</h2>
+            <p class="section-subtitle">A showcase of my recent projects demonstrating creativity, technical skill, and storytelling ability.</p>
+        </div>
+        
+        <!-- Instagram Portfolio -->
+        <div class="portfolio-section instagram-section">
+            <div class="instagram-header">
+                <h3 class="portfolio-section-title">
+                    <img src="static/logo.png" alt="Instagram" class="insta-logo" width="24" height="24">
+                    Instagram Reels
+                </h3>
+                <p class="instagram-handle">@muralz_moviez</p>
+            </div>
+            <div class="instagram-preview">
+                <a href="https://www.instagram.com/muralz_moviez" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                    <div class="instagram-image">
+                        <div class="play-icon">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="instagram-cta">
+                        <span>Watch Reels</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Google Drive Projects -->
+        <div class="portfolio-section">
+            <h3 class="portfolio-section-title">Project Showcase</h3>
+            <p class="portfolio-section-subtitle">Explore my professional video editing and motion graphics projects</p>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="motion">Motion Graphics</button>
+            </div>
+            <div class="card-grid portfolio-grid">
+                <!-- Commercial Project -->
+                <div class="card portfolio-item reveal" data-category="commercial">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-actions">
+                            <a href="https://drive.google.com/drive/folders/1pw-Uc-bW3bZ9JaIfo7iHiRMdph2-2l8P" 
+                               class="action-btn" target="_blank" rel="noopener noreferrer" aria-label="Open Commercial Projects">
+                                📂
+                            </a>
+                        </div>
+                        <div class="portfolio-text-logo">🎬</div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Commercial Projects</h3>
+                                <p>High-quality commercial videos with professional editing and visual effects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Commercial Projects</h3>
+                        <p>High-quality commercial videos with professional editing and visual effects</p>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1pw-Uc-bW3bZ9JaIfo7iHiRMdph2-2l8P" 
+                       target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Project</a>
+                </div>
+
+                <!-- Social Media Project -->
+                <div class="card portfolio-item reveal" data-category="social motion">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-actions">
+                            <a href="https://drive.google.com/drive/folders/1mTsgLfIxZXHw8OCNVk83_tOlZ93ldrC1" 
+                               class="action-btn" target="_blank" rel="noopener noreferrer" aria-label="Open Social Media Content">
+                                📂
+                            </a>
+                        </div>
+                        <div class="portfolio-text-logo">📱</div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Social Media</h3>
+                                <p>Engaging social media videos designed for maximum impact</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Social Media Content</h3>
+                        <p>Engaging social media videos designed for maximum impact and shareability</p>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1mTsgLfIxZXHw8OCNVk83_tOlZ93ldrC1" 
+                       target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Project</a>
+                </div>
+
+                <!-- Motion Graphics Project -->
+                <div class="card portfolio-item reveal" data-category="motion">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-actions">
+                            <a href="https://drive.google.com/drive/folders/11b7hoXtpoe_KhYaKaq3iG8pv7lxP8-RH" 
+                               class="action-btn" target="_blank" rel="noopener noreferrer" aria-label="Open Motion Graphics">
+                                📂
+                            </a>
+                        </div>
+                        <div class="portfolio-text-logo">✨</div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Motion Graphics</h3>
+                                <p>Engaging animations and visual effects motion design projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Motion Graphics Design</h3>
+                        <p>Creative motion graphics and animation projects showcasing visual storytelling.</p>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/11b7hoXtpoe_KhYaKaq3iG8pv7lxP8-RH" 
+                       target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal" role="region" aria-label="Skills">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">A showcase of my technical abilities and creative tools.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <h3>Video Editing</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Premiere Pro</span>
+                        <span class="skill-level">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">After Effects</span>
+                        <span class="skill-level">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">DaVinci Resolve</span>
+                        <span class="skill-level">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="85"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <h3>Motion Graphics</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Illustrator</span>
+                        <span class="skill-level">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Photoshop</span>
+                        <span class="skill-level">88%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="88"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <h3>Audio</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Audition</span>
+                        <span class="skill-level">92%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-level="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal" role="region" aria-label="Contact">
+        <div class="section-header">
+            <h2 class="section-title">Let's Create Something Amazing</h2>
+            <p class="section-subtitle">Ready to bring your vision to life? Get in touch to discuss your project and how we can work together.</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-grid">
+            <div class="footer-column about-column">
+                <h3 class="footer-heading">Murali Dharan</h3>
+                <p>A passionate Video Editor and Motion Designer dedicated to crafting compelling visual narratives that captivate and inspire.</p>
+            </div>
+            <div class="footer-column links-column">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-column">
+                <h3 class="footer-heading">Connect With Me</h3>
+                <div class="footer-social">
+                    <a href="https://youtube.com/@muralizmoviez-h3o?si=nJzH8kh_NNB6Fzcx" class="social-link" aria-label="YouTube" title="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/muralz_moviez" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="mailto:muralid017@gmail.com" class="social-link" aria-label="Email" title="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Murali Dharan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">▲</button>
+
+    <!-- Scripts -->
+    <script src="static/js/theme.js"></script>
+    <script src="static/js/app.js"></script>
+    <script src="static/js/enhancements.js" defer></script>
+</body>
+</html>
